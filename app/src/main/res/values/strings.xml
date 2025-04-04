@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Waves Of Food</string>
+    <string name="next">Next</string>
+    <string name="enjoy_restuarant_quality_food_at_home">Enjoy Restuarant Quality Food At Home</string>
+    <string name="enjoy_restuarant_quality_meals_n_at_home">Enjoy Restuarant Quality Meals \n At Home</string>
+    <string name="waves_of_food">Waves Of Food</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="todo">TODO</string>
+    <string name="delivering_your_favourite_food">Delivering Your Favourite Food</string>
+    <string name="email">Email</string>
 </resources>
