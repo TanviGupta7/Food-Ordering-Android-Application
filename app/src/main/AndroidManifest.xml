@@ -15,27 +15,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WavesOfFood"
         tools:targetApi="31">
+
         <activity
-            android:name=".SignActivity"
+            android:name=".ChooseLocationActivity"
             android:exported="false" />
+        <activity
+            android:name="com.angel6677.wavesoffood.SignActivity"
+            android:exported="false" />
+
+
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".StartActivity"
-            android:exported="false" /> <!-- SplashScreen Activity -->
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- MainActivity -->
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
